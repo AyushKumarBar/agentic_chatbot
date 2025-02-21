@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#txt-round {
+ border-top-left-radius: 10px !important;
+ border-top-right-radius: 10px !important;
+ border-bottom-right-radius: 0px !important;
+ border-bottom-left-radius: 0px !important;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+  }
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 0px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #909090;
+    border-radius: 0px;
+    border:0px solid transparent;
+  }
+
+/* Estilos para Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #909090 transparent;
+  }
+                
